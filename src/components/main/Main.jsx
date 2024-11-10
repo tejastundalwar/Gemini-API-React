@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import './Main.css'
 import { assets } from '../../assets/assets'
 import { Context } from '../../context/context'
+import profile_pic from '../../assets/profile_pic.png'
 const Main = () => {
 
     const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useContext(Context)
@@ -11,7 +12,7 @@ const Main = () => {
     <div className='main'>
       <div className="nav">
         <p>Gemini</p>
-        <img src={assets.profile_pic} alt="" />
+        <img src={profile_pic} alt="" />
       </div>
       <div className="main-container">
 
