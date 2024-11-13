@@ -142,10 +142,13 @@
 }
 
 .result-data{
-    display: block;
+    display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     gap: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 10px; 
 }
 
 .loader{
